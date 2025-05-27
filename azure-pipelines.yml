@@ -28,5 +28,4 @@ steps:
       # If you use Gradle: add the Execute Gradle build as shown below
   - task: Gradle@4
     inputs:
-      tasks: 'clean build'
-      sonarQubeRunAnalysis: true
+      tasks: 'clean build sonar'
