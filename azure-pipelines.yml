@@ -21,9 +21,9 @@ steps:
       SonarCloud: 'sonarcloud.io'
       organization: 'luis-rodriguezfernandez-sonarsource'
       scannerMode: 'other'
-      extraProperties: '|
+      extraProperties: |
         sonar.projectKey=luis-rodriguezfernandez-sonarsource_demo-spring-gradle
-        sonar.verbose=true'
+        sonar.verbose=true
 
       # If you use Gradle: add the Execute Gradle build as shown below
   - task: Gradle@4
