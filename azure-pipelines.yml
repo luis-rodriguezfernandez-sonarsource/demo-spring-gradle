@@ -19,6 +19,7 @@ steps:
   - task: SonarCloudPrepare@3
     inputs:
       SonarCloud: 'sonarcloud.io'
+      organization: 'luis-rodriguezfernandez-sonarsource'
       scannerMode: 'other'
       extraProperties: '|
         sonar.projectKey=demo-spring-gradle
