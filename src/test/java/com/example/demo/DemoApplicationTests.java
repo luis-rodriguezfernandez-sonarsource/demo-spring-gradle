@@ -8,11 +8,6 @@ class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {
-        try {
-            Thread.sleep(60000000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
     }
 
 }
