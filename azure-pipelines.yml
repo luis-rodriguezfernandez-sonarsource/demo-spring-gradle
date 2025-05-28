@@ -23,10 +23,10 @@ steps:
       scannerMode: 'other'
       extraProperties: |
         sonar.projectKey=luis-rodriguezfernandez-sonarsource_demo-spring-gradle
-        sonar.verbose=true
 
       # If you use Gradle: add the Execute Gradle build as shown below
   - task: Gradle@4
     inputs:
       tasks: 'clean build'
+      options: '--debug'
       sonarQubeRunAnalysis: true
